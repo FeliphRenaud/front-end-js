@@ -1,0 +1,120 @@
+/*------------- ESTILIZAÇÕES GERAIS ----------------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #ccc;
+}
+h1,h2,h3,
+h4,h5{
+  color: #333;
+}
+
+p,label{
+  color: #444;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+input[type="text"],
+input[type= "number"],
+input[type="submit"],
+input[type="date"],
+input[style="file"],
+textarea{
+  width: 280px;
+}
+
+/*----------------Estilos da pagina----------------------  */
+
+header{
+  padding-top: 50px;
+  padding-left: 50px;
+  height: 150px;
+  width: auto;
+  background-color: rgb(39, 115, 196);
+}
+
+header h3,
+header p{
+  color: #fdfdfd;
+  margin: 0 auto;
+}
+
+.form-container{
+  background-color: #fdfdfd;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: -62px;
+  padding: 10px;
+}
+
+.form-header{
+  border-bottom: 1px solid #dfdfdf;
+  height: 45px;
+  text-align: center;
+  margin: 0  auto;
+  line-height: 45px;
+}
+
+.form-body{
+  padding: 15px;
+}
+
+.form-title{
+  margin-bottom: 15px;
+}
+
+.form-body p{
+  margin-bottom: 15px;
+}
+
+.required-field {
+  color: #d80835;
+}
+
+.block{
+  display: block;
+}
+
+.box-input{
+  padding-bottom: 5px;
+}
+
+.optional-box{
+  padding-top: 15px;
+}
+
+.optional-container p{
+  padding-top: 15px;
+}
+
+.optional-list li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.btn-submit{
+  background-color: #444;
+  color: aliceblue;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn-submit:hover{
+  background-color: #666;
+  border-color: rgb(39, 115, 196);
+  color: rgb(39, 115, 196);
+}
