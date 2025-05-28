@@ -10,55 +10,54 @@
 </head>
 <body>
   <main>
-    <div class="main-container">
-      <!-- banner Container-->
-      <div id="banner-container">
-        <img src="./assets/img/banner2.png" alt="Crie uma conta no Instagram">
-        <form action="" class="login-form">
-          <input 
-            type="text"
-            name="userName"
-            placeholder="Numero de telefone, nome de usuario ou senha">
-          <input 
-            type="password"
-            placeholder="Senha">
-          <input 
-            type="submit" 
-            value="Entrar">
-        </form>
-        <div class="separator">
-          <div class="line"></div>
-          <span>Ou</span>
+    <div id="main-container">
+        <!-- Banner Container -->
+        <div id="banner-container">
+          <img src="./assets/img/banner2.png" alt="Crie uma conta no Instagram" />
         </div>
-        <div id="other-links">
-          <div class="facebook-login">
-            <img src="./assets/img/logo_facebook.svg" alt="Facebook Login">
-            <span>Entrar com o Facebook</span>
+        <!-- Login e Registro -->
+        <div id="form-container">
+          <div id="form-box">
+            <img id="logo-insta" src="./assets/img/logo_instagram.png" alt="Instagram" />
+            <form id="login-form">
+              <input
+                type="text"
+                name="username"
+                placeholder="Número de telefone, usuário ou e-mail"
+              />
+              <input type="password" name="password" placeholder="Senha" />
+              <input type="submit" value="Entrar" />
+            </form>
+            <div class="separator">
+              <div class="line"></div>
+              <span>Ou</span>
+            </div>
+            <div id="other-links">
+              <div id="facebook-login">
+                <a href="#">
+                  <img src="./assets/img/logo_facebook.svg" alt="Facebook Login" />
+                  <span>Entrar com o Facebook</span>
+                </a>
+              </div>
+              <div id="forgot-pass">
+                <a href="#">Esqueceu a senha?</a>
+              </div>
+            </div>
+          </div>
+          <div id="register-container">
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+          </div>
+          <div id="get-app-container">
+            <p>Obtenha o aplicativo.</p>
+            <a href="#">
+              <img src="./assets/img/apple_btn.png" alt="Apple Store" />
+            </a>
+            <a href="#">
+              <img src="./assets/img/gplay_btn.png" alt="Google Play" />
+            </a>
           </div>
         </div>
       </div>
-      <!-- Login -->
-      <div id="" class="form-container">
-        <div id="" class="form-box">
-          <img src="./assets/img/logo_instagram.png" alt="Instagram">
-        </div>
-        <div id="forgot-pass">
-          <a href="#">Esqueceu a Senha ? </a>
-        </div>
-        <div id="form-box">
-          <p>Não tem uma conta ? <a href="#">Cadastre-se</a></p>
-        </div>
-        <div id="get-app-container">
-          <p>Faça o download do app</p>
-          <a href="#">
-            <img src="./assets/img/apple_btn.png" alt="Apple Store">
-          </a>
-          <a href="#">
-            <img src="./assets/img/gplay_btn.png" alt="Google Play">
-          </a>
-        </div>
-      </div>
-    </div>
   </main>
   <footer>
     <nav>
