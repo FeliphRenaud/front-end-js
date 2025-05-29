@@ -78,6 +78,12 @@ Implementar uma versão funcional com backend.
 
 Criar animações para melhorar a experiência do usuário.
 
+# Imagens do projeto
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
 # ✍️ Autor
 
 ## Feliph Renaud
